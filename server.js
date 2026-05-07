@@ -841,3 +841,6 @@ app.listen(PORT, () => {
     console.log(`Admin panel: http://localhost:${PORT}/admin`);
     console.log(`Default credentials - Username: admin, Password: admin123`);
 });
+
+// Export for Vercel serverless
+module.exports = app;

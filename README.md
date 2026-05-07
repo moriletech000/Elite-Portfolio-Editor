@@ -148,34 +148,6 @@ Edit the `getThemeColors()` function in `server.js` to add new color schemes:
 
 ## Deployment
 
-### Vercel Deployment
-
-This project can be deployed to Vercel with some limitations:
-
-**Important Notes:**
-- File uploads will NOT persist on Vercel (serverless environment)
-- Session data is stored in memory and will reset
-- For production use, consider:
-  - Using a cloud storage service (AWS S3, Cloudinary) for images
-  - Using a database for persistent data storage
-  - Using Redis or similar for session management
-
-**Deploy to Vercel:**
-
-1. Install Vercel CLI:
-```bash
-npm install -g vercel
-```
-
-2. Deploy:
-```bash
-vercel
-```
-
-3. Follow the prompts to link your GitHub repository
-
-**Alternative:** Connect your GitHub repository directly through the Vercel dashboard at https://vercel.com
-
 ### Traditional Hosting
 
 For full functionality with file uploads and persistent sessions, deploy to:

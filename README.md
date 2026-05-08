@@ -71,15 +71,15 @@ npm start
 
 ```
 professional-portfolio/
-├── admin/              # PHP admin files (legacy)
-├── assets/             # CSS stylesheets
-│   ├── admin.css      # Admin panel styles
-│   └── style.css      # Main portfolio styles
-├── includes/           # PHP includes (legacy)
-├── uploads/            # User uploaded images
-├── server.js           # Main Express server
-├── package.json        # Node.js dependencies
-└── README.md          # Documentation
+ admin/              # PHP admin files (legacy)
+ assets/             # CSS stylesheets
+    admin.css      # Admin panel styles
+    style.css      # Main portfolio styles
+ includes/           # PHP includes (legacy)
+ uploads/            # User uploaded images
+ server.js           # Main Express server
+ package.json        # Node.js dependencies
+ README.md          # Documentation
 ```
 
 ## Usage
